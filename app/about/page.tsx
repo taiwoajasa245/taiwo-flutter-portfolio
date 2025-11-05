@@ -73,7 +73,7 @@ export default function AboutPage() {
     {
       category: "Backend Technologies",
       icon: <Server className="h-6 w-6" />,
-      items: ["Express.js", "Node.js", "Firebase", "REST APIs", "GraphQL"],
+      items: ["Express.js", "Node.js", "Firebase", "REST APIs", "GraphQL", "Go", "Fiber"],
       color: "from-green-500 to-emerald-500",
     },
     {
@@ -226,7 +226,7 @@ export default function AboutPage() {
                   <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 blur-xl -z-10"></div>
                   <div className="relative overflow-hidden rounded-lg border border-white/10">
                     <img
-                      src="/taiwo_image.jpg?height=600&width=500"
+                      src="/taiwo_image3.png?height=600&width=500"
                       alt="Ajasa Taiwo"
                       className="w-full h-auto object-cover transform transition-transform duration-500 hover:scale-105"
                     />

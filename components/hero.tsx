@@ -44,6 +44,8 @@ export default function Hero() {
                   2000,
                   "Cross-Platform Expert",
                   2000,
+                  "Backend Developer", 
+                  2000, 
                 ]}
                 wrapper="h2"
                 speed={50}
@@ -102,15 +104,25 @@ export default function Hero() {
         >
           <div className="relative w-full h-[400px] md:h-[500px]">
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500/20 to-purple-500/20 blur-3xl" />
-            <div className="absolute inset-0 flex items-center justify-center">
+            {/* <div className="absolute inset-0 flex items-center justify-center">
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white/10">
                 <img
-                  src="/developer_svg.svg?height=400&width=400"
+                  src="/taiwo_image3.png?height=400&width=400"
                   alt="Ajasa Taiwo"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover hover:scale-150"
                 />
               </div>
-            </div>
+            </div> */}
+            <div className="absolute inset-0 flex items-center justify-center">
+  <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-white/10 overflow-visible">
+    <img
+      src="/taiwo_image3.png?height=400&width=400"
+      alt="Ajasa Taiwo"
+      className="w-full h-full object-cover rounded-full transition-transform duration-500 hover:scale-150"
+    />
+  </div>
+</div>
+
 
             {/* Floating elements */}
             <motion.div
